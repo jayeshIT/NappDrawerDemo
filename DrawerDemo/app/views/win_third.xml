@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="win_third">
+		<Button id="openNew" onClick="onClose">
+			Close It
+		</Button>
+	</Window>
+</Alloy>

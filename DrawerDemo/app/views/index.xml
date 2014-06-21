@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<Button class="button_open" id="button_open" onClick="button_onclick"/>
+	</Window>
+</Alloy>

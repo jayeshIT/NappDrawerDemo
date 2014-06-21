@@ -1,0 +1,12 @@
+<Alloy>
+	<Window platform="android" module="xp.ui" id="win_second">
+		<Label class="lbl_name" text="jayesh joshi"/>
+	</Window>
+	<NavigationWindow id="nav_win_second" platform="ios">
+		<Window id="win_second" platform="ios">
+			<Button id="openNew">
+				This is second Window
+			</Button>
+		</Window>
+	</NavigationWindow>
+</Alloy>

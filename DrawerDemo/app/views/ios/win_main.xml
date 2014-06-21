@@ -1,0 +1,26 @@
+<Alloy>
+	<Widget id="drawer" src="nl.fokkezb.drawer">
+		<!-- left Window -->
+		<Window  id="leftMenu" module="xp.ui" role="leftWindow">
+			<View class="leftView" id="leftView">
+				<Button id="openFirst" onClick="openFirst" title="openFirst"/>
+				<Button class="opensecond" onClick="openSecond" title="openSecond"/>
+				<Button id="openFirst2" onClick="closeDrawer" title="Close It"/>
+			</View>
+		</Window>
+		<!-- Center Window -->
+		<NavigationWindow role="centerWindow" id="NavigationWindow" id="navWindow">
+			<Window role="centerWindow" id="win_center">
+				<Label onClick="openFromCenter">
+					I am Center
+				</Label>
+			</Window>
+		</NavigationWindow>
+		<!-- Right Window 
+		<Window module="xp.ui" role="rightWindow">
+			<Label>
+				I am right
+			</Label>
+		</Window>-->
+	</Widget>
+</Alloy>

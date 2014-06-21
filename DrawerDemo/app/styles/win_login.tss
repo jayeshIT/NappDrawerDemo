@@ -1,0 +1,9 @@
+"#open_drawer":
+{
+	top: 50,
+	left: 10,
+	width: 120,
+	height: 30,
+	backgroundColor: 'gray',
+	title: 'Open Drawer'
+}

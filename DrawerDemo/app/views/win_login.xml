@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="win_login" id="win_login">
+		<Button class="open_drawer" id="open_drawer" onClick="open_nappdrawer"/>
+	</Window>
+</Alloy>

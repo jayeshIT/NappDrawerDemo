@@ -1,0 +1,22 @@
+<Alloy>
+	<Widget id="drawer" src="nl.fokkezb.drawer">
+		<!-- left Window -->
+		<View role="leftWindow" id="leftView">
+			<Button id="openFirst" onClick="openFirst" title="Open First"/>
+			<Button id="opensecond" onClick="openSecond" title="Open Second"/>
+			<Button id="openFirst2" onClick="closeDrawer" title="Close It">
+		</View>
+		<!-- Center Window -->
+		<View platform="android" role="centerWindow">
+			<Label onClick="openFromCenter">
+				I am center
+			</Label>
+		</View>
+		<!-- Right Window
+		<Window module="xp.ui" role="rightWindow">
+		<Label>
+		I am right
+		</Label>
+		</Window>-->
+	</Widget>
+</Alloy>

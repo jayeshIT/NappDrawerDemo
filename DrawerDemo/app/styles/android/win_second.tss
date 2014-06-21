@@ -1,0 +1,10 @@
+"Window": {
+	backgroundColor: 'teal',
+	navBarHidden: true,
+	fullscreen: false
+},
+"#win_first":{
+	backgroundColor: 'teal',
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}

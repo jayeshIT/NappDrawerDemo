@@ -1,0 +1,12 @@
+".container": {
+	backgroundColor: "white"
+},
+"#button_open":
+{
+	top: 50,
+	left: 10,
+	width: 120,
+	height: 30,
+	backgroundColor: 'gray',
+	title: 'Open Login'
+}

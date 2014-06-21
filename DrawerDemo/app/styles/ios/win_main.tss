@@ -1,0 +1,24 @@
+"#drawer":
+{
+	openDrawerGestureMode: "OPEN_MODE_ALL",
+	closeDrawerGestureMode: "CLOSE_MODE_ALL",
+	leftDrawerWidth: 180,
+	rightDrawerWidth: 220
+},
+"Window":
+{
+
+	backgroundColor: 'white',
+	navBarHidden: true,
+	fullscreen: false
+},
+"#leftView":{
+	layout: 'vertical',
+	backgroundColor: 'white'
+}
+"Button":{
+	top: 20,
+	backgroundColor: 'green'
+}
+
+
