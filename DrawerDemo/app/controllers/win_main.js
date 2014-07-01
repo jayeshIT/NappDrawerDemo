@@ -73,9 +73,13 @@ $.drawer.addEventListener('windowDidOpen', function(e) {
 $.drawer.addEventListener('windowDidClose', function(e) {
 	Ti.API.info("windowDidClose");
 });
+if (OS_IOS) {
 
-$.drawer.setShouldStretchDrawer(false);
-$.drawer.setAnimationMode($.drawer.module.ANIMATION_SLIDE_SCALE);
+	$.drawer.setShouldStretchDrawer(false);
+	$.drawer.setAnimationMode($.drawer.module.ANIMATION_SLIDE_SCALE);
+	Alloy.Globals.navDrawer = $.NavigationWindow;
+}
+
 Alloy.Globals.changeOPenMode = function(isAll) {
 	if (isAll) {
 		$.drawer.setOpenDrawerGestureMode($.drawer.module.OPEN_MODE_ALL);
@@ -83,4 +87,4 @@ Alloy.Globals.changeOPenMode = function(isAll) {
 		$.drawer.setOpenDrawerGestureMode($.drawer.module.OPEN_MODE_NONE);
 	}
 };
-Alloy.Globals.navDrawer = $.NavigationWindow;
+

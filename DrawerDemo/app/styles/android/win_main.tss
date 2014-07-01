@@ -2,8 +2,8 @@
 {
 	openDrawerGestureMode: "OPEN_MODE_ALL",
 	closeDrawerGestureMode: "CLOSE_MODE_MARGIN",
-	leftDrawerWidth: "200dp",
-	rightDrawerWidth: "200dp",
+	//leftDrawerWidth: "200dp",
+	//rightDrawerWidth: "200dp",
 	orientationModes: [Ti.UI.PORTRAIT],
 	animationMode: 'ANIMATION_NONE'
 },
